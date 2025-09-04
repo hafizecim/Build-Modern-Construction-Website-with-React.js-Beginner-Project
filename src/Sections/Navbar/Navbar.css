@@ -61,16 +61,11 @@
     .navbar{
         padding: 0.5rem 1rem;
     }
-
     .navbar .navbar__links{ 
         display: none;
     }
-
     .navbar .menu__btn{
         display: flex;
-    }
-    .navbar .btn{
-        display: none;
     }
 }
 
