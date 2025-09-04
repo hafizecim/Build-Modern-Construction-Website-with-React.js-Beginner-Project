@@ -44,7 +44,7 @@
     font-size: var(--font-size-base);
 }
 
-.navbar menu__btn{
+.navbar .menu__btn{
     font-size: 30px;
     background: transparent;
     display: none;
@@ -52,7 +52,7 @@
 
 /* Make the navbar responsive*/
 @media (max-width:1156px){
-    .navbar .social__handles{
+    .navbar .social_handles{
         display: none;
     }
 }
@@ -62,12 +62,15 @@
         padding: 0.5rem 1rem;
     }
 
-    .navbar .navbar__links{
+    .navbar .navbar__links{ 
         display: none;
     }
 
     .navbar .menu__btn{
         display: flex;
+    }
+    .navbar .btn{
+        display: none;
     }
 }
 
@@ -75,4 +78,5 @@
     .navbar .btn{
         display: none;
     }
-}
+    
+} 
