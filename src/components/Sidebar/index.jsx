@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sidebar.css";
 import Logo from "../Logo";
-import { FiTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import { navigations } from "../../data";
 import { Link } from "react-scroll";
 
@@ -12,7 +12,7 @@ const Sidebar = ({ openSidebar, onClose }) => {
         <div className="flex__center top">
           <Logo />
           <button className="flex__center icon" onClick={onClose}>
-            <FiTimes />
+            <FaTimes />
           </button>
         </div>
         <div className="middle navlinks">

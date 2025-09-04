@@ -51,13 +51,13 @@
 }
 
 /* Make the navbar responsive*/
-@media (max-widht:1156px){
+@media (max-width:1156px){
     .navbar .social__handles{
         display: none;
     }
 }
 
-@media (max-widht:950px){
+@media (max-width:950px){
     .navbar{
         padding: 0.5rem 1rem;
     }
@@ -71,7 +71,7 @@
     }
 }
 
-@media (max-widht:500px){
+@media (max-width:500px){
     .navbar .btn{
         display: none;
     }
