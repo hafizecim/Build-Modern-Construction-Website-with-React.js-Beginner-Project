@@ -1,0 +1,9 @@
+.social_handles{
+    align-items: center;
+    gap: 5px;
+
+}
+
+.social_handles .icon{
+    border: var(--gray-border);
+}
