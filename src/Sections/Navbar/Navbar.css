@@ -51,3 +51,28 @@
 }
 
 /* Make the navbar responsive*/
+@media (max-widht:1156px){
+    .navbar .social__handles{
+        display: none;
+    }
+}
+
+@media (max-widht:950px){
+    .navbar{
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar .navbar__links{
+        display: none;
+    }
+
+    .navbar .menu__btn{
+        display: flex;
+    }
+}
+
+@media (max-widht:500px){
+    .navbar .btn{
+        display: none;
+    }
+}
