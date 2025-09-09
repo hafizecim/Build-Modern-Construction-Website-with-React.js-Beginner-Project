@@ -7,16 +7,18 @@ import SocialHandles from "../../components/SocialHandles";
 import { FaArrowTurnDown } from "react-icons/fa6";
 import { FiMenu } from "react-icons/fi";
 import Sidebar from "../../components/Sidebar";
+import useNavbar from "../../hook/useNavbar"; 
 
 const Navbar = () => {
   const [openSidebar, setOpenSidebar] = useState(false);
+  const  {showNavbar} = useNavbar();
   return (
     <>
       <Sidebar
         openSidebar={openSidebar}
         onClose={() => setOpenSidebar(!openSidebar)}
       />
-      <nav className="flex__center navbar">
+      <nav className={`flex__center navbar ${showNavbar ? "drop" : ""}`}>
         <Logo />
         <div className="navbar__links">
           {navigations.map((item, index) => (
