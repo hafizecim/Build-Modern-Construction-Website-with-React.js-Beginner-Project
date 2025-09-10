@@ -7,7 +7,7 @@ import { services } from '../../data';
 const Services = () => {
   return (
     <section id='services'>
-        <div className="overlay_div">
+        <div className="overlay__div">
             <div className="container">
                 <div className="grid">
                     <div className="section__header">

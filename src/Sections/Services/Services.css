@@ -1,6 +1,7 @@
 #services{
     background-image: url('../../assets/sketch.png');
     background-size: cover;
+    
 }
 
 #services .grid{
@@ -36,4 +37,21 @@
 
 #services .service .middle{
     margin: 20px 0;
+}
+
+/* make services Responsive */
+
+@media (max-width: 930px){
+    #services .grid{
+        grid-template-columns: 100%;
+    }
+    #services .grid.services{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 700px){
+    #services .grid.services{
+        grid-template-columns: 100%;
+    }
 }
