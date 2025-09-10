@@ -1,0 +1,39 @@
+#services{
+    background-image: url('../../assets/sketch.png');
+    background-size: cover;
+}
+
+#services .grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: auto 450px;
+}
+#services .grid.services{
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+}
+
+#services .object__contain{
+    max-width: 450px;
+    margin: auto;
+}
+
+#services .service{
+    background: var(--bg-secondary);
+    border-radius: var(--radius-2);
+    box-shadow: var(--box-shadow);
+    padding: 30px 20px;
+}
+
+#services .service .top{ 
+    align-items: center;
+    gap: 10px;
+}
+
+#services .service .icon{
+    border: solid 1px var(--primary);
+}
+
+#services .service .middle{
+    margin: 20px 0;
+}
