@@ -4,6 +4,7 @@ import About from "./Sections/About";
 import WhyChooseUs from "./Sections/WhyChooseUs";
 import "swiper/css"
 import Services from "./Sections/Services";
+import Portfolio from "./Sections/Portfolio";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <WhyChooseUs />
       <Services />
+      <Portfolio />
     </>
   );
 }
